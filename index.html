@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Request a free commercial air-conditioning quote across Greater Manchester and Cheshire. Aircon Partner matches businesses with suitable local commercial AC installers.">
+<meta name="theme-color" content="#0b1f2a">
+<title>Commercial Air Conditioning Quotes | Aircon Partner</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg site-nav sticky-top">
+  <div class="container py-2">
+    <a class="navbar-brand d-flex align-items-center" href="#top"><span class="brand-mark">AP</span>Aircon <span class="brand-accent ms-1">Partner</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#how">How it works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#coverage">Coverage</a></li>
+        <li class="nav-item"><a class="nav-link" href="#privacy">Privacy</a></li>
+        <li class="nav-item"><a class="nav-link nav-cta" href="#quote">Get a free quote</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-8">
+        <div class="eyebrow">Commercial air conditioning • Greater Manchester & Cheshire</div>
+        <h1 class="display-title mb-4">Find the right commercial air-conditioning installer.</h1>
+        <p class="hero-copy mb-4">Tell us about your premises and Aircon Partner will match your enquiry with a suitable commercial air-conditioning specialist covering your area.</p>
+        <div class="trust-row mb-4"><span>✓ Free quotation request</span><span>✓ No obligation</span><span>✓ Commercial specialists</span></div>
+        <a class="btn primary-btn" href="#quote">Request my free quote</a>
+        <div class="small-note mt-2">Takes around 60 seconds.</div>
+      </div>
+      <div class="col-lg-4">
+        <div class="hero-card">
+          <div class="fw-bold mb-2">We help businesses with</div>
+          <ul class="list-unstyled mb-0">
+            <li><span class="check-icon">✓</span>New AC installations</li>
+            <li><span class="check-icon">✓</span>Replacement systems</li>
+            <li><span class="check-icon">✓</span>Additional cooling</li>
+            <li><span class="check-icon">✓</span>Multi-room projects</li>
+            <li><span class="check-icon">✓</span>Server-room cooling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="eyebrow">Commercial only</div>
+    <h2 class="section-title mb-3">Air conditioning for businesses across the region</h2>
+    <p class="section-lead mb-5">From a single office to a larger multi-room installation, we help businesses reach an appropriate local specialist.</p>
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-3"><div class="service-card"><h3>Offices</h3><p>Comfort cooling for individual rooms, open-plan offices and complete workplaces.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="service-card"><h3>Retail</h3><p>Systems for shops, showrooms and other customer-facing commercial premises.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="service-card"><h3>Hospitality</h3><p>Air conditioning for restaurants, cafés, bars and hospitality environments.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="service-card"><h3>Specialist spaces</h3><p>Server rooms, gyms, salons, clinics, warehouses and other commercial spaces.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="quote">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-4">
+        <div class="eyebrow">Free quotation request</div>
+        <h2 class="section-title mb-3">Tell us about your project</h2>
+        <p class="section-lead">We use these details to understand the size, location and timing of your project before matching it with a suitable installation company.</p>
+        <div class="mt-4 p-3 bg-white rounded-3 border"><strong class="d-block mb-1">Best suited for</strong><span class="small-note">Commercial installations, replacement systems and additional AC units.</span></div>
+      </div>
+      <div class="col-lg-8">
+        <form id="quoteForm" class="quote-card">
+          <input type="hidden" name="lead_score" id="leadScore" value="0">
+          <div class="row g-3">
+            <div class="col-md-6"><label class="form-label" for="propertyType">Property type</label><select class="form-select" id="propertyType" name="property_type" required><option value="">Select...</option><option>Office</option><option>Retail / shop</option><option>Restaurant / hospitality</option><option>Salon / clinic</option><option>Gym / leisure</option><option>Server / communications room</option><option>Warehouse / industrial</option><option>Other commercial premises</option></select></div>
+            <div class="col-md-6"><label class="form-label" for="requirement">What do you need?</label><select class="form-select" id="requirement" name="requirement" required><option value="">Select...</option><option>New air-conditioning installation</option><option>Replacement system</option><option>Additional air-conditioning units</option><option>Not sure yet</option></select></div>
+            <div class="col-md-6"><label class="form-label" for="areas">Rooms / areas requiring AC</label><select class="form-select" id="areas" name="areas" required><option value="">Select...</option><option>1</option><option>2–3</option><option>4–10</option><option>10+</option></select></div>
+            <div class="col-md-6"><label class="form-label" for="timeframe">Project timeframe</label><select class="form-select" id="timeframe" name="timeframe" required><option value="">Select...</option><option>As soon as possible</option><option>Within 30 days</option><option>1–3 months</option><option>3+ months</option><option>Just researching</option></select></div>
+            <div class="col-md-6"><label class="form-label" for="budget">Approximate budget</label><select class="form-select" id="budget" name="budget" required><option value="">Select...</option><option>Under £2,000</option><option>£2,000–£5,000</option><option>£5,000–£10,000</option><option>£10,000–£25,000</option><option>£25,000+</option><option>Not sure</option></select></div>
+            <div class="col-md-6"><label class="form-label" for="postcode">Business postcode</label><input class="form-control" id="postcode" name="postcode" placeholder="e.g. M1 1AA" autocomplete="postal-code" required></div>
+            <div class="col-md-6"><label class="form-label" for="company">Business / company name</label><input class="form-control" id="company" name="company" autocomplete="organization" required></div>
+            <div class="col-md-6"><label class="form-label" for="name">Your name</label><input class="form-control" id="name" name="name" autocomplete="name" required></div>
+            <div class="col-md-6"><label class="form-label" for="phone">Phone</label><input class="form-control" type="tel" id="phone" name="phone" autocomplete="tel" required></div>
+            <div class="col-md-6"><label class="form-label" for="email">Email</label><input class="form-control" type="email" id="email" name="email" autocomplete="email" required></div>
+            <div class="col-12"><div class="form-check"><input class="form-check-input" type="checkbox" value="yes" id="decisionMaker" name="decision_maker"><label class="form-check-label" for="decisionMaker">I am involved in arranging or approving this project.</label></div></div>
+            <div class="col-12"><div class="form-check"><input class="form-check-input" type="checkbox" value="yes" id="sharingAck" name="data_sharing_acknowledged" required><label class="form-check-label" for="sharingAck">I understand that Aircon Partner will use the information I provide to process this quotation request and may share it with a suitable air-conditioning installation company that can contact me about this project.</label></div></div>
+          </div>
+          <p class="privacy-copy mt-3 mb-3">Submitting this request does not subscribe you to unrelated marketing. See the <a href="#privacy">Privacy Notice</a> below for more information about how your details are used.</p>
+          <button id="quoteSubmit" type="submit" class="btn primary-btn w-100">Request my free quote</button>
+          <div id="formResponse" class="response-container" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="container">
+    <div class="eyebrow">How it works</div>
+    <h2 class="section-title mb-5">A simpler way to find a commercial installer</h2>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="step-box"><div class="step-num">1</div><h3 class="h5 fw-bold">Tell us what you need</h3><p>Complete the short project form with your location, property type, project size and timing.</p></div></div>
+      <div class="col-md-4"><div class="step-box"><div class="step-num">2</div><h3 class="h5 fw-bold">We assess the enquiry</h3><p>Aircon Partner checks the project details and identifies a suitable commercial installation company.</p></div></div>
+      <div class="col-md-4"><div class="step-box"><div class="step-num">3</div><h3 class="h5 fw-bold">An installer contacts you</h3><p>The matched company can discuss your requirements and, where appropriate, arrange a quotation or site survey.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="coverage">
+  <div class="container text-center">
+    <div class="eyebrow">Initial coverage</div>
+    <h2 class="section-title mb-3">Greater Manchester & Cheshire</h2>
+    <p class="section-lead mx-auto mb-4" style="max-width:760px">We are initially matching commercial projects across the areas below and surrounding locations.</p>
+    <div><span class="coverage-pill">Manchester</span><span class="coverage-pill">Salford</span><span class="coverage-pill">Trafford</span><span class="coverage-pill">Stockport</span><span class="coverage-pill">Altrincham</span><span class="coverage-pill">Wilmslow</span><span class="coverage-pill">Warrington</span><span class="coverage-pill">Bolton</span><span class="coverage-pill">Bury</span></div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="container text-center">
+    <h2 class="section-title mb-3">Planning a commercial air-conditioning project?</h2>
+    <p class="mb-4">Request a free, no-obligation quotation today.</p>
+    <a class="btn light-btn" href="#quote">Get my free quote</a>
+  </div>
+</section>
+
+<section class="section" id="privacy">
+  <div class="container">
+    <div class="eyebrow">Privacy</div>
+    <h2 class="section-title mb-4">Privacy Notice</h2>
+    <div class="privacy-card">
+      <h3 class="mt-0">Information we collect</h3><p>When you request a quotation, Aircon Partner may collect your name, business name, telephone number, email address, business postcode and information about your air-conditioning project.</p>
+      <h3>Why we use your information</h3><p>We use the information you provide to assess your quotation request, identify a suitable air-conditioning installation company and facilitate contact about the project you have asked us to help with.</p>
+      <h3>Sharing your information</h3><p>Where appropriate, we may share the details of your quotation request with a suitable air-conditioning installation company covering your location and project type. That company may then contact you directly about your project.</p>
+      <h3>Marketing</h3><p>Submitting a quotation request does not automatically subscribe you to unrelated marketing communications.</p>
+      <h3>Retention and your rights</h3><p>We keep quotation information only for as long as reasonably necessary for lead administration, quality control, dispute handling, record keeping and applicable legal obligations. Depending on the circumstances, you may have rights in relation to your personal information, including access, correction, deletion, restriction and objection.</p>
+      <h3>Contact</h3><p class="mb-0">For privacy questions, email <a href="mailto:hello@airconpartner.co.uk">hello@airconpartner.co.uk</a>.</p>
+    </div>
+    <p class="small-note mt-3 mb-0"><strong>Before full public launch:</strong> this notice should be completed with the final legal/trading identity and business contact address, and checked against the exact CRM, analytics and advertising tools used.</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-md-7"><div class="d-flex align-items-center fw-bold fs-5"><span class="brand-mark">AP</span>Aircon <span class="brand-accent ms-1">Partner</span></div><p class="mt-3 mb-0">Commercial air-conditioning quotation matching across Greater Manchester and Cheshire.</p></div>
+      <div class="col-md-5 text-md-end"><a href="#quote">Request a quote</a><br><a href="#privacy">Privacy Notice</a><br><a href="mailto:hello@airconpartner.co.uk">hello@airconpartner.co.uk</a></div>
+    </div>
+    <div class="footer-note"><p class="mb-2">Aircon Partner is a quotation matching service and is not an air-conditioning installer. Installation contracts are entered into directly with the relevant installation company.</p><p class="mb-0">© <span id="year"></span> Aircon Partner.</p></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const form = document.getElementById('quoteForm');
+  const submitButton = document.getElementById('quoteSubmit');
+  const responseContainer = document.getElementById('formResponse');
+  const leadScoreInput = document.getElementById('leadScore');
+
+  function calculateLeadScore(fd){
+    let score = 20;
+    const budget = fd.get('budget') || '';
+    const timeframe = fd.get('timeframe') || '';
+    const areas = fd.get('areas') || '';
+    const property = fd.get('property_type') || '';
+    if (budget === '£5,000–£10,000') score += 20;
+    if (budget === '£10,000–£25,000' || budget === '£25,000+') score += 30;
+    if (budget === 'Under £2,000') score -= 15;
+    if (timeframe === 'As soon as possible' || timeframe === 'Within 30 days') score += 20;
+    if (timeframe === 'Just researching') score -= 20;
+    if (areas === '4–10' || areas === '10+') score += 15;
+    if (property === 'Server / communications room') score += 20;
+    if (fd.get('decision_maker') === 'yes') score += 15;
+    return score;
+  }
+
+  form.addEventListener('submit', function(event){
+    event.preventDefault();
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+    const data = new FormData(form);
+    const score = calculateLeadScore(data);
+    leadScoreInput.value = String(score);
+
+    const subject = encodeURIComponent('Commercial AC quote request - ' + (data.get('company') || 'Website enquiry'));
+    const body = encodeURIComponent(
+      'Property type: ' + data.get('property_type') + '\\n' +
+      'Requirement: ' + data.get('requirement') + '\\n' +
+      'Rooms/areas: ' + data.get('areas') + '\\n' +
+      'Timeframe: ' + data.get('timeframe') + '\\n' +
+      'Budget: ' + data.get('budget') + '\\n' +
+      'Postcode: ' + data.get('postcode') + '\\n' +
+      'Company: ' + data.get('company') + '\\n' +
+      'Name: ' + data.get('name') + '\\n' +
+      'Phone: ' + data.get('phone') + '\\n' +
+      'Email: ' + data.get('email') + '\\n' +
+      'Decision maker: ' + (data.get('decision_maker') || 'no') + '\\n' +
+      'Lead score: ' + score
+    );
+    window.location.href = 'mailto:hello@airconpartner.co.uk?subject=' + subject + '&body=' + body;
+    responseContainer.innerHTML = '<div class="alert alert-info mb-0">Your email app should now open with the project details ready to send.</div>';
+  });
+})();
+</script>
+</body>
+</html>
